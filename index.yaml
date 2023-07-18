@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.25.1
-    created: "2023-07-17T09:48:52.983150849+09:00"
+    created: "2023-07-18T16:11:24.3761066+09:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -34,4 +34,15 @@ entries:
     urls:
     - nginx-15.1.0.tgz
     version: 15.1.0
-generated: "2023-07-17T09:48:52.979304965+09:00"
+  testnginx:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-07-18T16:11:24.3807984+09:00"
+    description: A Helm chart for Kubernetes
+    digest: c11349c8062461eaa5aa4da8510724c8eb8d6eecc80754de9e504729c1a99afe
+    name: testnginx
+    type: application
+    urls:
+    - testnginx-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-07-18T16:11:24.3654145+09:00"
